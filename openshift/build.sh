@@ -8,4 +8,4 @@ GOPATH=${GOPATH} go build server.go
 mv server ../openshift/bin/.
 popd
 
-docker build -t pweil/hello-websocket .
+docker build -t zhaozhanqi/hello-websocket .
